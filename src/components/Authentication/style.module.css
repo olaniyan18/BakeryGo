@@ -163,25 +163,22 @@ button:hover {
 @media only screen and (max-width: 937px) {
   .container {
     grid-template-columns: 1fr;
-    height: -webkit-fill-available;
+    height: auto;
   }
 
   .image img {
     height: 583px;
+    overflow: hidden;
   }
 
   .first {
     grid-template-columns: 1fr;
   }
 
-  .image {
-    /* display: none; */
-  }
-
   .signup {
     padding: 10% 4%;
     position: relative;
-    bottom: 88px;
+    /* bottom: 88px; */
     height: -webkit-fill-available;
     background: white;
     border-top-right-radius: 24px;
