@@ -178,8 +178,7 @@ button:hover {
   .signup {
     padding: 10% 4%;
     position: relative;
-    /* bottom: 88px; */
-    height: -webkit-fill-available;
+    bottom: 210px;
     background: white;
     border-top-right-radius: 24px;
     border-top-left-radius: 24px;
